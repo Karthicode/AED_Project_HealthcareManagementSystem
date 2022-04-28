@@ -34,4 +34,10 @@ public class Directorate {
     }
     
     
-   
+    @Override
+    public String toString(){
+        return directorateId;
+    }
+
+    
+}
