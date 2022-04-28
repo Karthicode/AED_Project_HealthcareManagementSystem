@@ -16,6 +16,7 @@ public class HealthcareManagementSystem {
     public static void main(String[] args) {
         // TODO code application logic here
         //testing functionality
+
     }
     
 }
