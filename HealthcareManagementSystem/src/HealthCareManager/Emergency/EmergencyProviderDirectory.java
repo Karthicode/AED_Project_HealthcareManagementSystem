@@ -20,5 +20,14 @@ public class EmergencyProviderDirectory {
 
     public HashMap<String, EmergencyProvider> getResponderList() {
         return responderList;
-    }   
+    }
+        public void setResponderList(HashMap<String, EmergencyProvider> responderList) {
+        this.responderList = responderList;
+    }
+    public EmergencyProviderDirectory() {
+    }
+
+    public void addRadiologist(String id, EmergencyProvider radiologist) {
+        responderList.put(id, radiologist);
+    }
 }
