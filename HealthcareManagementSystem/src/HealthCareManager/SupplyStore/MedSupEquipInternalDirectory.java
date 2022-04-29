@@ -29,6 +29,26 @@ public class MedSupEquipInternalDirectory {
     public ArrayList<DispatchRequest> getOrderList() {
         return orderList;
     }
+  public void setOrderList(ArrayList<DispatchRequest> orderList) {
+        this.orderList = orderList;
+    }
 
+    public void addOrder(DispatchRequest order){
+        orderList.add(order);
+    }
+    
+    
+    
+    public void addMedSupEquip(EquipmentSupplyStore medSupEquipInternal){
+        medSupEquipInternalList.add(medSupEquipInternal);
+    }
+    
+    public EquipmentSupplyStore findMedSupEquipByName(String medSupEquip_name){
+        for(EquipmentSupplyStore medSupEquipInternal: medSupEquipInternalList){
+            if(medSupEquipInternal.getSupply_Item_name().equals(medSupEquip_name))
+                return medSupEquipInternal;
+        }
+        return null;
+    }
     
 }
