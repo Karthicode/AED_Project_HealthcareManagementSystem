@@ -19,5 +19,13 @@ public class Workers {
     public Workers() {
         workerList = new ArrayList();
     }
-  
+    public ArrayList<Worker> getEmployeeList() {
+        return workerList;
+    }
+    
+    public void addEmployee(Worker worker){
+        workerList.add(worker);
+    }
+    
+    
 }
