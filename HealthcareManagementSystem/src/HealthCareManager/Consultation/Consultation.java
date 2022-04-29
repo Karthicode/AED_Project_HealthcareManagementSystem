@@ -7,7 +7,7 @@ package HealthCareManager.Consultation;
 
 /**
  *
- * @author karthik
+ * @author harshithnarahari
  */
 public class Consultation {
  
