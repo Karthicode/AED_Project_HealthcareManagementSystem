@@ -34,4 +34,23 @@ public class Worker {
         this.worker_Id = worker_Id;
     }
 
+    public Role getRole() {
+        return role;
+    }
+    
+    public void setRole(Role role) {
+        this.role = role;
+    }
+    //setting worker to bind to specific roles
+    public Worker(String worker_id, String worker_Name, Role role) {
+        this.worker_Name = worker_Name;
+        this.worker_Id = worker_id;
+        this.role = role;
+    }
+
+    
+    @Override
+    public String toString() {
+        return worker_Id;
+    }
 }
