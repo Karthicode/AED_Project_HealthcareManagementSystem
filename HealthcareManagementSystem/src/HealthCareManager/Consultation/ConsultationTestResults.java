@@ -22,5 +22,18 @@ public class ConsultationTestResults {
     public void setTest_results_List(ArrayList<Consultation> test_results_List) {
         this.test_results_List = test_results_List;
     }
- 
+     
+    public void addTest(Consultation specialilzed_tests){
+        test_results_List.add(specialilzed_tests);
+    }
+    
+    public Consultation findLabTestByName(String test_name){
+        for(Consultation test: test_results_List){
+            if(test.test_name.equals(test_name))
+                return test;
+        }
+        return null;
+    }
+    
+   
 }
