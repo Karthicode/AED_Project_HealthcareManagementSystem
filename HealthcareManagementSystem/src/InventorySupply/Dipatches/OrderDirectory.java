@@ -12,8 +12,6 @@ import java.util.HashMap;
  *
  * @author Rishi
  */
-
-
 public class OrderDirectory {
     
     ArrayList<DispatchRequest> orderList = new ArrayList<>();
