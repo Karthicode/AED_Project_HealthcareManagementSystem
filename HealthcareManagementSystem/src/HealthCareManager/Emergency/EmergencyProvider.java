@@ -21,7 +21,21 @@ public class EmergencyProvider {
         return emergencyProviderId;
     }
 
-    
+    public void setEmergencyProviderId(String emergencyProviderId) {    
+        this.emergencyProviderId = emergencyProviderId;
+    }
 
+    public String getEmergencyProviderName() {
+        return emergencyProviderName;
+    }
+
+    public void setEmergencyProviderName(String emergencyProviderName) {
+        this.emergencyProviderName = emergencyProviderName;
+    }
     
+    
+    @Override
+    public String toString(){
+        return emergencyProviderId;
+    } 
 }
