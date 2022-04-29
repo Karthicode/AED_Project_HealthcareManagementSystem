@@ -22,14 +22,14 @@ public abstract class LogisticsOrganization {
     private static int counter=0;
     
     
-    public enum Type{
+    public enum UserType{
         AdminUser("AdminUser"),
         GeneralUser("GeneralUser"),
         LastMileDelivery("LastMileDelivery"),
         SysAdmin("Sysadmin");
         
         private String inputVal;
-        private Type(String inputVal) {
+        private UserType(String inputVal) {
             this.inputVal = inputVal;
         }
         public String getInputVal() {

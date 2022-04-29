@@ -11,4 +11,14 @@ package HealthCareSystemManagement;
  */
 class JobQueue {
     
+    private String jobID;
+
+    public String getJobID() {
+        return jobID;
+    }
+
+    public void setJobID(String jobID) {
+        this.jobID = jobID;
+    }
+    
 }
