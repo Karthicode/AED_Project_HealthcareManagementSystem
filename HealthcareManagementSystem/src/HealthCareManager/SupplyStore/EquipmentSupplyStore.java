@@ -34,5 +34,24 @@ public class EquipmentSupplyStore {
     public void setSupply_category(String supply_category) {
         this.supply_category = supply_category;
     }
+      public String getSupply_Item_name() {
+        return supply_Item_name;
+    }
+
+    public void setSupply_Item_name(String supply_Item_name) {
+        this.supply_Item_name = supply_Item_name;
+    }
+
+    public String getSupply_quantity() {
+        return supply_quantity;
+    }
+
+    public void setSupply_quantity(String supply_quantity) {
+        this.supply_quantity = supply_quantity;
+    } 
     
+    @Override
+    public String toString(){
+        return supply_Item_name;
+    }
 }
