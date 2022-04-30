@@ -5,7 +5,7 @@
 package HealthCareSystemManagement;
 
 import WorkerProvider.Workers;
-import IntegrationSystem.UserAccountDirectory;
+import IntegrationSystem.EnterpriseUserDirectory;
 import java.util.ArrayList;
 /**
  *
@@ -16,7 +16,7 @@ public abstract class LogisticsOrganization {
     private String name;
     private JobQueue jobQueue;
     private Workers employeeDirectory;
-    private UserAccountDirectory userAccountDirectory;
+    private EnterpriseUserDirectory userAccountDirectory;
     
     private int organizationID;
     private static int counter=0;
@@ -41,7 +41,7 @@ public abstract class LogisticsOrganization {
         this.name = name;
         jobQueue = new JobQueue();
         employeeDirectory = new Workers();
-        userAccountDirectory = new UserAccountDirectory();
+        userAccountDirectory = new EnterpriseUserDirectory();
         organizationID = counter;
         ++counter;
     }
@@ -51,7 +51,7 @@ public abstract class LogisticsOrganization {
 //    }
 //    public abstract ArrayList<Role> getSupportedRole();
     
-    public UserAccountDirectory getUserAccountDirectory() {
+    public EnterpriseUserDirectory getUserAccountDirectory() {
         return userAccountDirectory;
     }
 

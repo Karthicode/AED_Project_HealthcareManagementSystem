@@ -6,7 +6,7 @@
 package HealthCareManager.Pharmacist;
 
 import HospitalManagement.Doctor.*;
-import IntegrationSystem.CustomerAccount;
+import IntegrationSystem.ConsumerRecords;
 
 /**
  *

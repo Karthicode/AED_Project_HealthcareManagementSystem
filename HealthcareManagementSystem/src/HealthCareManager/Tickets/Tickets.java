@@ -5,7 +5,7 @@
  */
 package HealthCareManager.Tickets;
 
-import IntegrationSystem.CustomerAccount;
+import IntegrationSystem.ConsumerRecords;
 
 /**
  *
