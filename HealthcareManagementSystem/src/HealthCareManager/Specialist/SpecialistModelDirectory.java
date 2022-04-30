@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author karthik
+ * @author Rishi
  */
 public class SpecialistModelDirectory {
     

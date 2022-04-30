@@ -9,7 +9,7 @@ import IntegrationSystem.ConsumerRecords;
 
 /**
  *
- * @author karthik
+ * @author Rishi
  */
 public class Specialist {
     
