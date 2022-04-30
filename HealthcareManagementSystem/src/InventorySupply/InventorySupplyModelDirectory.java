@@ -8,8 +8,9 @@ package InventorySupply;
 import java.util.ArrayList;
 
 /**
- *
- * @author Rishi
+
+ * @author karthik
+
  */
 public class InventorySupplyModelDirectory {
     
