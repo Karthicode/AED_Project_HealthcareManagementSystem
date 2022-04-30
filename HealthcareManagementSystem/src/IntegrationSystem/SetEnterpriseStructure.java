@@ -14,7 +14,15 @@ import HealthCareMainSystem.AdminRoles.SystemAdminRole;
  */
 
 public class SetEnterpriseStructure {
- 
+    
+    public static HealthcareSystemOrganizationIntegration setRoleData(){
+        
+        HealthcareSystemOrganizationIntegration healthcareSystemOrganizationIntegration = new HealthcareSystemOrganizationIntegration();
+        EnterpriseUserDirectory userAccountDirectory = healthcareSystemOrganizationIntegration.getUserAccDirectory();
+        ConsumerRecords consumerAccount = new ConsumerRecords("admin", "Adminuser123",new SystemAdminRole());
+        userAccountDirectory.addConsumerData(consumerAccount);
+        
+        return healthcareSystemOrganizationIntegration;
     }
     
 }
