@@ -68,5 +68,24 @@ public class HealthcareSystemOrganizationIntegration extends HealthCareSystemEnt
         return inventoryDirectory;
     }
 
-   
+    public void setInventoryDirectory(InventorySupplyModelDirectory inventoryDirectory) {
+        this.inventoryDirectory = inventoryDirectory;
+    }
+    
+    public HelperTeamModel getHelperTeamDirectory() {
+        return helperTeamDirectory;
+    }
+
+    public void setHelperTeamDirectory(HelperTeamModel helperTeamDirectory) {
+        this.helperTeamDirectory = helperTeamDirectory;
+    }
+
+    public DispatcherServiceDirectory getDispatcherServiceDirectory() {
+        return dispatcherServiceDirectory;
+    }
+
+    public void setDispatcherServiceDirectory(DispatcherServiceDirectory dispatcherServiceDirectory) {
+        this.dispatcherServiceDirectory = dispatcherServiceDirectory;
+    }
+    
 }
