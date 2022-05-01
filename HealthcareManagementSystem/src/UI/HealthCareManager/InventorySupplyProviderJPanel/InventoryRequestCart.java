@@ -28,7 +28,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author harshithnarahari
+ * @author Rishi
  */
 public class InventoryRequestCart extends javax.swing.JPanel {
 

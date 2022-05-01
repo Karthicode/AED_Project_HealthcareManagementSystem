@@ -81,7 +81,6 @@ public class ERSystemConsultationPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Hospital Accounts ");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 50, 706, -1));
@@ -94,7 +93,7 @@ public class ERSystemConsultationPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(61, 40, 100, 40));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(61, 40, 140, 40));
 
         jTableEmployee.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -138,7 +137,6 @@ public class ERSystemConsultationPanel extends javax.swing.JPanel {
         add(UpdateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 680, 100, 30));
 
         jLabelPassword.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
-        jLabelPassword.setForeground(new java.awt.Color(255, 255, 255));
         jLabelPassword.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelPassword.setText("Password:");
         add(jLabelPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 350, 120, -1));
@@ -158,7 +156,6 @@ public class ERSystemConsultationPanel extends javax.swing.JPanel {
         add(jTextID, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 280, -1));
 
         jLabelID.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
-        jLabelID.setForeground(new java.awt.Color(255, 255, 255));
         jLabelID.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelID.setText("ID:");
         add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 190, 120, -1));
@@ -174,20 +171,19 @@ public class ERSystemConsultationPanel extends javax.swing.JPanel {
         add(DeleteButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 680, 100, 30));
 
         jLabelName.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
-        jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelName.setText("Name:");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 250, 120, -1));
 
         jLabelPincode.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
-        jLabelPincode.setForeground(new java.awt.Color(255, 255, 255));
         jLabelPincode.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelPincode.setText("Pincode:");
         add(jLabelPincode, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, 120, -1));
         add(jTextFieldHospPincode, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 300, 280, -1));
 
+        bgdimg.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\COVID-ICU-illustration (1) (1) (1).jpg")); // NOI18N
         bgdimg.setToolTipText("");
-        add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 1920, 1220));
+        add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -180, 1920, 1220));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

@@ -71,7 +71,7 @@ public class FirstAidSupplyInventoryRecordsJPanel extends javax.swing.JPanel {
         jLabelID = new javax.swing.JLabel();
         DeleteButton = new javax.swing.JButton();
         jLabelName = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -173,7 +173,9 @@ public class FirstAidSupplyInventoryRecordsJPanel extends javax.swing.JPanel {
         jLabelName.setFont(new java.awt.Font("Dubai Medium", 1, 16)); // NOI18N
         jLabelName.setText("Warehouse Name :");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 250, 180, -1));
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -6, 1920, 1190));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\Medi (1).jpg")); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -100, 1630, 1010));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -323,7 +325,7 @@ public class FirstAidSupplyInventoryRecordsJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel Header;
     private javax.swing.JButton UpdateButton;
     private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelID;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelPassword;

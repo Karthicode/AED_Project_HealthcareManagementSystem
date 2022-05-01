@@ -74,6 +74,7 @@ public class InventoryStockData extends javax.swing.JPanel {
         jTableMedSupEquipDB = new javax.swing.JTable();
         jLabelQuantity = new javax.swing.JLabel();
         jTextFieldQuantity = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -100,7 +101,7 @@ public class InventoryStockData extends javax.swing.JPanel {
                 CreateButtonActionPerformed(evt);
             }
         });
-        add(CreateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 549, 110, 40));
+        add(CreateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 550, 110, 40));
 
         UpdateButton.setFont(new java.awt.Font("Times New Roman", 0, 13)); // NOI18N
         UpdateButton.setText("UPDATE");
@@ -109,7 +110,7 @@ public class InventoryStockData extends javax.swing.JPanel {
                 UpdateButtonActionPerformed(evt);
             }
         });
-        add(UpdateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 549, 110, 40));
+        add(UpdateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 550, 110, 40));
 
         DeleteButton.setFont(new java.awt.Font("Times New Roman", 0, 13)); // NOI18N
         DeleteButton.setText("DELETE");
@@ -118,36 +119,34 @@ public class InventoryStockData extends javax.swing.JPanel {
                 DeleteButtonActionPerformed(evt);
             }
         });
-        add(DeleteButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 549, 100, 40));
+        add(DeleteButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 550, 100, 40));
 
-        jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelName.setText(" Instrument Name :");
-        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 200, 170, 20));
+        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 170, 20));
 
         jTextFieldName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldNameActionPerformed(evt);
             }
         });
-        add(jTextFieldName, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 200, 270, -1));
+        add(jTextFieldName, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 150, 270, -1));
 
-        jLabelInstrumentPrice.setForeground(new java.awt.Color(255, 255, 255));
         jLabelInstrumentPrice.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelInstrumentPrice.setText(" Instrument Price :");
-        add(jLabelInstrumentPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 240, 180, 20));
+        add(jLabelInstrumentPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 190, 180, 20));
 
-        jLabelTitle2.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        jLabelTitle2.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabelTitle2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitle2.setText("Medical Supplies Data");
-        add(jLabelTitle2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 940, -1));
+        jLabelTitle2.setText("Medical Supplies Warehouse");
+        add(jLabelTitle2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 940, -1));
 
         jTextInstrumentPrice.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextInstrumentPriceActionPerformed(evt);
             }
         });
-        add(jTextInstrumentPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 240, 270, -1));
+        add(jTextInstrumentPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 190, 270, -1));
 
         jTableMedSupEquipDB.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -170,19 +169,21 @@ public class InventoryStockData extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(jTableMedSupEquipDB);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 390, 490, 110));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 400, 490, 110));
 
-        jLabelQuantity.setForeground(new java.awt.Color(255, 255, 255));
         jLabelQuantity.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelQuantity.setText("Quantitiy :");
-        add(jLabelQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 280, 200, -1));
+        add(jLabelQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 200, -1));
 
         jTextFieldQuantity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldQuantityActionPerformed(evt);
             }
         });
-        add(jTextFieldQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 280, 270, -1));
+        add(jTextFieldQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 270, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\COVID-ICU-illustration (1) (1) (1).jpg")); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1230, 840));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonHomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHomeActionPerformed
@@ -246,6 +247,7 @@ public class InventoryStockData extends javax.swing.JPanel {
     private javax.swing.JButton DeleteButton;
     private javax.swing.JButton UpdateButton;
     private javax.swing.JButton jButtonHome;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelInstrumentPrice;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelQuantity;

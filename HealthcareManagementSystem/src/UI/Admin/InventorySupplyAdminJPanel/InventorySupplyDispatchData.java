@@ -71,15 +71,16 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
         jTextFieldQuantity = new javax.swing.JTextField();
         ItemToggle = new javax.swing.JComboBox<>();
         jLabelQuantity = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Header2.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
-        Header2.setForeground(new java.awt.Color(255, 255, 255));
+        Header2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        Header2.setForeground(new java.awt.Color(204, 255, 51));
         Header2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Header2.setText("Orders List");
-        add(Header2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 350, 706, -1));
+        add(Header2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, 706, -1));
 
         jButtonHome.setBackground(new java.awt.Color(0, 70, 169));
         jButtonHome.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
@@ -98,7 +99,7 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
                 UpdateButtonActionPerformed(evt);
             }
         });
-        add(UpdateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 290, -1, -1));
+        add(UpdateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 290, -1, -1));
 
         AssignButton.setFont(new java.awt.Font("Times New Roman", 0, 13)); // NOI18N
         AssignButton.setText("ASSIGN");
@@ -107,37 +108,38 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
                 AssignButtonActionPerformed(evt);
             }
         });
-        add(AssignButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 630, 120, 40));
+        add(AssignButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 580, 120, 40));
 
+        jLabelName.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelName.setText("Instrument Name :");
-        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 150, 180, -1));
+        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 150, 180, -1));
 
         jTextFieldName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldNameActionPerformed(evt);
             }
         });
-        add(jTextFieldName, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 140, 270, -1));
+        add(jTextFieldName, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 150, 270, -1));
 
+        jLabelPrice.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jLabelPrice.setForeground(new java.awt.Color(255, 255, 255));
         jLabelPrice.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelPrice.setText("Instrument Price :");
-        add(jLabelPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 180, 190, 20));
+        add(jLabelPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 190, 20));
 
-        Header1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
-        Header1.setForeground(new java.awt.Color(255, 255, 255));
+        Header1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         Header1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Header1.setText("Medical Supplies Orders");
-        add(Header1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 940, -1));
+        Header1.setText(" Orders Management");
+        add(Header1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 940, -1));
 
         jTextFieldPrice.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldPriceActionPerformed(evt);
             }
         });
-        add(jTextFieldPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 180, 270, -1));
+        add(jTextFieldPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 270, -1));
 
         jTableNewOrders.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -160,27 +162,32 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(jTableNewOrders);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 430, 680, 110));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 380, 680, 110));
 
         jLabelDeliveryAgency.setForeground(new java.awt.Color(255, 255, 255));
         jLabelDeliveryAgency.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelDeliveryAgency.setText("Delivery Agency");
-        add(jLabelDeliveryAgency, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 590, -1, -1));
+        add(jLabelDeliveryAgency, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 540, -1, -1));
 
         jTextFieldQuantity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldQuantityActionPerformed(evt);
             }
         });
-        add(jTextFieldQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 220, 270, -1));
+        add(jTextFieldQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 220, 270, -1));
 
         ItemToggle.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        add(ItemToggle, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 590, -1, -1));
+        add(ItemToggle, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 540, -1, -1));
 
+        jLabelQuantity.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jLabelQuantity.setForeground(new java.awt.Color(255, 255, 255));
         jLabelQuantity.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelQuantity.setText("Quantity :");
-        add(jLabelQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 220, 200, -1));
+        add(jLabelQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 200, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\istockphoto-1295964655-170667a (1).jpg")); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 880));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonHomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHomeActionPerformed
@@ -224,6 +231,7 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> ItemToggle;
     private javax.swing.JButton UpdateButton;
     private javax.swing.JButton jButtonHome;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelDeliveryAgency;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelPrice;

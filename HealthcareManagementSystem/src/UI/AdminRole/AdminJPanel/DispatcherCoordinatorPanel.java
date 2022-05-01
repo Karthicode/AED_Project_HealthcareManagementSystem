@@ -142,7 +142,6 @@ public class DispatcherCoordinatorPanel extends javax.swing.JPanel {
         add(UpdateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 640, 140, 40));
 
         jLabelPassword.setFont(new java.awt.Font("Dubai Medium", 1, 16)); // NOI18N
-        jLabelPassword.setForeground(new java.awt.Color(255, 255, 255));
         jLabelPassword.setText("Password:");
         add(jLabelPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, 100, 30));
 
@@ -161,7 +160,6 @@ public class DispatcherCoordinatorPanel extends javax.swing.JPanel {
         add(jTextID, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 190, 351, -1));
 
         jLabelEmpID.setFont(new java.awt.Font("Dubai Medium", 1, 16)); // NOI18N
-        jLabelEmpID.setForeground(new java.awt.Color(255, 255, 255));
         jLabelEmpID.setText("ID :");
         add(jLabelEmpID, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, 50, 30));
 
@@ -176,10 +174,11 @@ public class DispatcherCoordinatorPanel extends javax.swing.JPanel {
         add(DeleteButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 640, 140, 40));
 
         jLabelEmpName.setFont(new java.awt.Font("Dubai Medium", 1, 16)); // NOI18N
-        jLabelEmpName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelEmpName.setText("Name :");
         add(jLabelEmpName, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 230, 70, 30));
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, -40, 1920, 1190));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\Medi (1) (1).jpg")); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -200, 1920, 1190));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

@@ -53,6 +53,7 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
         jPanel2 = new javax.swing.JPanel();
         MedSuppliesButton = new javax.swing.JButton();
         OrderManagementButton = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(1720, 1080));
         setLayout(new java.awt.BorderLayout());
@@ -80,7 +81,7 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
 
         MedSuppliesButton.setBackground(new java.awt.Color(0, 70, 169));
         MedSuppliesButton.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        MedSuppliesButton.setText("Medical Supplies Data");
+        MedSuppliesButton.setText("Medical Supplies Warehouse");
         MedSuppliesButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MedSuppliesButtonActionPerformed(evt);
@@ -97,6 +98,9 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
             }
         });
         jPanel2.add(OrderManagementButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 401, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\COVID-19-Palliative-1-1200x800.jpg")); // NOI18N
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 1400, 810));
 
         jSplitPane.setRightComponent(jPanel2);
 
@@ -122,6 +126,7 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton MedSuppliesButton;
     private javax.swing.JButton OrderManagementButton;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;
