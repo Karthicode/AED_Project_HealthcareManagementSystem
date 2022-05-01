@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author harshithnarahari
+ * @author Rishi
  */
 public class InventorySupplyDataPanel extends javax.swing.JPanel {
 

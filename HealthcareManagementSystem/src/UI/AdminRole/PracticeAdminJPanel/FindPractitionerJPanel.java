@@ -34,7 +34,7 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
 /**
- *
+ *  
  * @author harshithnarahari
  */
 public class FindPractitionerJPanel extends javax.swing.JPanel {
