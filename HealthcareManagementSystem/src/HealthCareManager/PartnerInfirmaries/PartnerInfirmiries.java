@@ -10,13 +10,13 @@ import HealthCareManager.Practitioner.PractitionerDirectory;
 import HealthCareManager.Pharmacist.MedicalAdvisorDirectory;
 import HealthCareManager.Emergency.EmergencyProviderDirectory;
 import HealthCareManager.Specialist.SpecialistModelDirectory;
-import HospitalManagement.ServiceTeam.ServiceTeamModelDirectory;
 
-import HealthCareManager.ResponseManager.FirstResponderDirectory;
+
+
 import HealthCareSystem.Directorate.DirectorateDirectory;
 import HealthCareManager.ERWard.ERPatientModel;
 import HealthCareManager.Consultation.ConsultationTestResults;
-import HealthCareManager.Inventory.Inventory;
+
 import HealthCareManager.SupplyStore.supplyEquipmentDispatchModel;
 import java.util.HashMap;
 
