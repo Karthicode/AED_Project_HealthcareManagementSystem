@@ -14,7 +14,7 @@ import UI.AdminRole.AdminJPanel.ManagerAccountsJPanel;
  *
  * @author karthik 
  */
-public class TechnicianRole extends RoleBasedAuthPanel {
+public class DispatcherProvider extends RoleBasedAuthPanel {
 
     public JPanel createWorkArea(JPanel PanelRenderer, ConsumerRecords consumerRecords, HealthcareSystemOrganizationIntegration healthcareSystemOrganizationIntegration) {
         return new ManagerAccountsJPanel(PanelRenderer, healthcareSystemOrganizationIntegration);

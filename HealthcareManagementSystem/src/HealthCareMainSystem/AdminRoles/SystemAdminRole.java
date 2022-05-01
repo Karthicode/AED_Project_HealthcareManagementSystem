@@ -23,7 +23,7 @@ public class SystemAdminRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "SystemAdmin";
+        return "OrgAministrator";
     }
     
 }

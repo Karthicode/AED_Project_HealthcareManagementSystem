@@ -23,6 +23,6 @@ public class InventoryManagerRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "MedSupWarehouseAdmin";
+        return "Inventory";
     }
 }
