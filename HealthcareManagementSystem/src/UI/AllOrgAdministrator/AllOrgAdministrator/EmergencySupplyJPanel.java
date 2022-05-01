@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Rishi 
+ * @author karthik 
  */
 public class EmergencySupplyJPanel extends javax.swing.JPanel {
 
