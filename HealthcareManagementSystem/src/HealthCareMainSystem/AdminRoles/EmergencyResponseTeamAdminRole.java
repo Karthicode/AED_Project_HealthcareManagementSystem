@@ -23,6 +23,6 @@ public class EmergencyResponseTeamAdminRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "CustomerSupportTeamAdmin";
+        return "ERAdmin";
     }
 }
