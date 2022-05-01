@@ -23,6 +23,6 @@ public class DispatcherServiceRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "DeliveryAgencyAdmin";
+        return "DispatcherService";
     }
 }

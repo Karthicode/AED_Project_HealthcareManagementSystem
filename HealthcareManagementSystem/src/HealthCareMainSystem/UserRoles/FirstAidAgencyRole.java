@@ -22,6 +22,6 @@ public class FirstAidAgencyRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "MedSupEquipAdmin";
+        return "FirstAidEquipment";
     }
 }

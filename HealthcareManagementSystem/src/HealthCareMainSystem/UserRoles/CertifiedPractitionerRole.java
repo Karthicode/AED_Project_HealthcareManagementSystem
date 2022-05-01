@@ -22,6 +22,6 @@ public class CertifiedPractitionerRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "Doctor";
+        return "Pracitioner";
     }
 }
