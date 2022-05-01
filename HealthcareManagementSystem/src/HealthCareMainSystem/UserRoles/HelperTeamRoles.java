@@ -14,7 +14,7 @@ import UI.AdminRole.AdminJPanel.ManagerAccountsJPanel;
  *
  * @author karthik 
  */
-public class TechnicianRole extends RoleBasedAuthPanel {
+public class HelperTeamRoles extends RoleBasedAuthPanel {
 
     public JPanel createWorkArea(JPanel PanelRenderer, ConsumerRecords consumerRecords, HealthcareSystemOrganizationIntegration healthcareSystemOrganizationIntegration) {
         return new ManagerAccountsJPanel(PanelRenderer, healthcareSystemOrganizationIntegration);
@@ -22,6 +22,6 @@ public class TechnicianRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "Technician";
+        return "HelperTeamMember";
     }
 }
