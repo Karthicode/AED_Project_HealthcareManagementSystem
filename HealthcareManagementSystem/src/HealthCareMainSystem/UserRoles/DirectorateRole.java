@@ -22,6 +22,6 @@ public class DirectorateRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "Accountant";
+        return "Directorate";
     }
 }
