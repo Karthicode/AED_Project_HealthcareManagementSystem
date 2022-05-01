@@ -76,9 +76,9 @@ public class SupportTeamManagerPanel extends javax.swing.JPanel {
         jLabelID = new javax.swing.JLabel();
         DeleteButton = new javax.swing.JButton();
         jLabelName = new javax.swing.JLabel();
-        bgdimg = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 70, 169));
+        setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
@@ -125,7 +125,7 @@ public class SupportTeamManagerPanel extends javax.swing.JPanel {
             }
         });
         add(CreateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 650, 100, 40));
-        add(jTextTeamName, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 351, 30));
+        add(jTextTeamName, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 160, 351, 30));
 
         UpdateButton.setBackground(new java.awt.Color(0, 0, 0));
         UpdateButton.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -139,25 +139,25 @@ public class SupportTeamManagerPanel extends javax.swing.JPanel {
 
         jLabelPassword.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabelPassword.setText("Password:");
-        add(jLabelPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 290, 104, -1));
+        add(jLabelPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 104, -1));
 
         jTextPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextPasswordActionPerformed(evt);
             }
         });
-        add(jTextPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 290, 351, 26));
+        add(jTextPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 230, 351, 26));
 
         jTextTeamID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextTeamIDActionPerformed(evt);
             }
         });
-        add(jTextTeamID, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, 351, 30));
+        add(jTextTeamID, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 90, 351, 30));
 
         jLabelID.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabelID.setText("Team ID:");
-        add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 150, 104, -1));
+        add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 90, 104, -1));
 
         DeleteButton.setBackground(new java.awt.Color(0, 0, 0));
         DeleteButton.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -171,8 +171,10 @@ public class SupportTeamManagerPanel extends javax.swing.JPanel {
 
         jLabelName.setFont(new java.awt.Font("Lucida Grande", 1, 16)); // NOI18N
         jLabelName.setText("Team Name:");
-        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 230, -1, -1));
-        add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1920, 1200));
+        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\istockphoto-1242457489-612x612 (1).jpg")); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1260, 910));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -324,9 +326,9 @@ public class SupportTeamManagerPanel extends javax.swing.JPanel {
     private javax.swing.JButton CreateButton;
     private javax.swing.JButton DeleteButton;
     private javax.swing.JButton UpdateButton;
-    private javax.swing.JLabel bgdimg;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabelID;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelPassword;

@@ -73,6 +73,7 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
         WarehouseManagementButton = new javax.swing.JButton();
         DeliveryAgencyManagement = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
 
         setPreferredSize(new java.awt.Dimension(1720, 1080));
@@ -125,9 +126,11 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
         jPanel2.add(DeliveryAgencyManagement, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 370, 401, -1));
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("System Admin Work Area");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 60, 510, 50));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\istockphoto-1295964655-170667a (1).jpg")); // NOI18N
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1270, 870));
 
         jSplitPane.setRightComponent(jPanel2);
 
@@ -189,6 +192,7 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
     private javax.swing.JButton HospitalManagementButton;
     private javax.swing.JButton WarehouseManagementButton;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;
