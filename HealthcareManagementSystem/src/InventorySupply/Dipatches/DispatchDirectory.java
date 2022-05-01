@@ -6,15 +6,15 @@
 package InventorySupply.Dipatches;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+
 
 /**
  *
  * @author Rishi
  */
-public class OrderDirectory {
+public class DispatchDirectory {
     
-    ArrayList<DispatchRequest> orderList = new ArrayList<>();
+    ArrayList<DispatchRequest> dispatch_List = new ArrayList<>();
     String last_order_id = "ORDER001";
     public String getLast_order_id() {
         return last_order_id;
@@ -24,16 +24,16 @@ public class OrderDirectory {
         this.last_order_id = last_order_id;
     }
     
-    public ArrayList<DispatchRequest> getOrderList() {
-        return orderList;
+    public ArrayList<DispatchRequest> getDispatch_List() {
+        return dispatch_List;
     }
 
-    public void setOrderList(ArrayList<DispatchRequest> orderList) {
-        this.orderList = orderList;
+    public void setDispatch_List(ArrayList<DispatchRequest> dispatch_List) {
+        this.dispatch_List = dispatch_List;
     }
     
     public void addOrder(DispatchRequest order){
-        orderList.add(order);
+        dispatch_List.add(order);
     }
     
    

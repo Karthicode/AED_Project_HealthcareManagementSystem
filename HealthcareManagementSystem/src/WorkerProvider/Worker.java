@@ -37,7 +37,11 @@ public class Worker {
     public Role getRole() {
         return role;
     }
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 1caebc23f829bb89351302a2585372dc25dce619
     public void setRole(Role role) {
         this.role = role;
     }

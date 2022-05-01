@@ -19,6 +19,10 @@ public class Workers {
     public Workers() {
         workerList = new ArrayList();
     }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1caebc23f829bb89351302a2585372dc25dce619
     public ArrayList<Worker> getEmployeeList() {
         return workerList;
     }
@@ -27,5 +31,9 @@ public class Workers {
         workerList.add(worker);
     }
     
+<<<<<<< HEAD
+    
+=======
  
+>>>>>>> 1caebc23f829bb89351302a2585372dc25dce619
 }
