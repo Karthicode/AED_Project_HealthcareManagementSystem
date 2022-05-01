@@ -29,7 +29,6 @@ public class ConsultantAdminPanel extends javax.swing.JPanel {
         this.healthcareSystemOrganizationIntegration = healthcareSystemOrganizationIntegration;
         this.partnerInfirmiries = infirmiries;
         jPanel1.setVisible(false);
-        
    
     }
     
