@@ -11,10 +11,10 @@ import IntegrationSystem.HealthcareSystemOrganizationIntegration;
 
 
 import HealthCareMainSystem.AdminRoles.DispatcherServiceRole;
-import HealthCareMainSystem.UserRoles.Role;
+import HealthCareMainSystem.UserRoles.RoleBasedAuthPanel;
 
-import Model.DispatcherServiceProvider.DispatcherService;
-import Model.DispatcherServiceProvider.DispatcherServiceDirectory;
+import DispatcherServiceProvider.DispatcherService;
+import DispatcherServiceProvider.DispatcherServiceDirectory;
 import IntegrationSystem.ConsumerRecords;
 import IntegrationSystem.EnterpriseUserDirectory;
 import java.awt.CardLayout;
