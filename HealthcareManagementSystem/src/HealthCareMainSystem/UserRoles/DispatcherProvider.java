@@ -12,9 +12,9 @@ import UI.AdminRole.AdminJPanel.ManagerAccountsJPanel;
 
 /**
  *
- * @author karthik karthik
+ * @author karthik 
  */
-public class FirstAidAgencyRole extends RoleBasedAuthPanel {
+public class DispatcherProvider extends RoleBasedAuthPanel {
 
     public JPanel createWorkArea(JPanel PanelRenderer, ConsumerRecords consumerRecords, HealthcareSystemOrganizationIntegration healthcareSystemOrganizationIntegration) {
         return new ManagerAccountsJPanel(PanelRenderer, healthcareSystemOrganizationIntegration);
@@ -22,6 +22,6 @@ public class FirstAidAgencyRole extends RoleBasedAuthPanel {
     
     @Override
     public String toString(){
-        return "FirstAidEquipment";
+        return "Technician";
     }
 }
