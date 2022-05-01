@@ -10,7 +10,7 @@ import Model.DispatcherServiceProvider.DispatcherService;
 import HealthCareManager.PartnerInfirmaries.PartnerInfirmiries;
 import HealthCareManager.PartnerInfirmaries.PartnerInfirmiriesDirectory;
 import HealthCareManager.SupplyStore.EquipmentSupplyStore;
-import HealthCareManager.SupplyStore.MedSupEquipInternalDirectory;
+import HealthCareManager.SupplyStore.supplyEquipmentDispatchModel;
 import InventorySupply.FirstAidSupply.FirstAidKit;
 import InventorySupply.FirstAidSupply.FirstAidKitDirectory;
 import IntegrationSystem.HealthcareSystemOrganizationIntegration;
@@ -19,7 +19,7 @@ import IntegrationSystem.EnterpriseUserDirectory;
 import InventorySupply.InventorySupply;
 import InventorySupply.InventorySupplyModelDirectory;
 import InventorySupply.Dipatches.DispatchRequest;
-import InventorySupply.Dipatches.OrderDirectory;
+import InventorySupply.Dipatches.DispatchDirectory;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -194,8 +194,8 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
         
         for(PartnerInfirmiries infirmiries: infirmiriesList){
             if(dispatchRequest.getInstitution_Id().equals(infirmiries.getInfirmaryId())){
-                MedSupEquipInternalDirectory medSupEquipInternalDirectory = infirmiries.getMedSupEquipInternalDirectory();
-                ArrayList<EquipmentSupplyStore> equipmentSupplyStores = medSupEquipInternalDirectory.getMedSupEquipInternalList();                
+                supplyEquipmentDispatchModel medSupEquipInternalDirectory = infirmiries.getMedSupEquipInternalDirectory();
+                ArrayList<EquipmentSupplyStore> equipmentSupplyStores = medSupEquipInternalDirectory.getSupplyItemsFirstAidList();                
                 for(EquipmentSupplyStore medSupEquipInternal: equipmentSupplyStores){
                     for (HashMap.Entry<FirstAidKit,String> entry : dispatchRequest.getFirstAidKitsTotalQuantity().entrySet()){
                         if(entry.getKey().toString().equals(medSupEquipInternal.getSupply_Item_name())){
@@ -205,7 +205,7 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
                         }
                     }
                 }
-                medSupEquipInternalDirectory.setMedSupEquipInternalList(equipmentSupplyStores);
+                medSupEquipInternalDirectory.setSupplyItemsFirstAidList(equipmentSupplyStores);
                 infirmiries.setMedSupEquipInternalDirectory(medSupEquipInternalDirectory);
             }
             
@@ -242,9 +242,9 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
         
         for(InventorySupply inventorySupply: medSupWarehouseList)
         {
-            OrderDirectory orderDirectory = inventorySupply.getOrderDirectory();
+            DispatchDirectory orderDirectory = inventorySupply.getOrderDirectory();
             if(orderDirectory!=null){
-            ArrayList<DispatchRequest> dispatchRequests = orderDirectory.getOrderList();
+            ArrayList<DispatchRequest> dispatchRequests = orderDirectory.getDispatch_List();
             
                 for(DispatchRequest order: dispatchRequests)
             if(order.getRequest_processing_status().equals("new") && order.getTransporter_Id().equals(dispatcherService.getDeliveryAgencyId())){

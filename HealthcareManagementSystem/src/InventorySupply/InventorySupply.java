@@ -7,7 +7,7 @@ package InventorySupply;
 
 import IntegrationSystem.EnterpriseUserDirectory;
 import InventorySupply.FirstAidSupply.FirstAidKitDirectory;
-import InventorySupply.Dipatches.OrderDirectory;
+import InventorySupply.Dipatches.DispatchDirectory;
 
 import java.util.HashMap;
 
@@ -21,7 +21,7 @@ public class InventorySupply {
     private String Inventory_Location_Name;
     FirstAidKitDirectory Inventory_Stock_Directory;
     EnterpriseUserDirectory UserAccountDirectory;
-    OrderDirectory orderDirectory;
+    DispatchDirectory orderDirectory;
     
     
     
@@ -56,11 +56,11 @@ public class InventorySupply {
         this.Inventory_Stock_Directory = Inventory_Stock_Directory;
     }
 
-    public OrderDirectory getOrderDirectory() {
+    public DispatchDirectory getOrderDirectory() {
         return orderDirectory;
     }
 
-    public void setOrderDirectory(OrderDirectory orderDirectory) {
+    public void setOrderDirectory(DispatchDirectory orderDirectory) {
         this.orderDirectory = orderDirectory;
     }
     
