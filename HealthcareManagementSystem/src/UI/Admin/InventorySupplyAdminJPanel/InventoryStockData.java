@@ -14,7 +14,7 @@ import IntegrationSystem.ConsumerRecords;
 import IntegrationSystem.EnterpriseUserDirectory;
 import InventorySupply.InventorySupply;
 import InventorySupply.InventorySupplyModelDirectory;
-import InventorySupply.Dipatches.OrderDirectory;
+import InventorySupply.Dipatches.DispatchDirectory;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 
@@ -46,7 +46,7 @@ public class InventoryStockData extends javax.swing.JPanel {
             inventorySupply.setInventory_Stock_Directory(new FirstAidKitDirectory());
         }
         if(inventorySupply.getOrderDirectory()== null){
-            inventorySupply.setOrderDirectory(new OrderDirectory());
+            inventorySupply.setOrderDirectory(new DispatchDirectory());
         }
         insertFirstAidData();
     }

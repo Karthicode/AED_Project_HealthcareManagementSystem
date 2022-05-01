@@ -5,7 +5,7 @@
  */
 package HealthCareManager.Practitioner;
 
-import IntegrationSystem.CustomerAccount;
+import IntegrationSystem.ConsumerRecords;
 
 /**
  *

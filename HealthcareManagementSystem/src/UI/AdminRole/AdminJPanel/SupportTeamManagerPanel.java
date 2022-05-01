@@ -11,7 +11,7 @@ import IntegrationSystem.HealthcareSystemOrganizationIntegration;
 
 
 import HealthCareMainSystem.AdminRoles.EmergencyResponseTeamAdminRole;
-import HealthCareMainSystem.UserRoles.Role;
+import HealthCareMainSystem.UserRoles.RoleBasedAuthPanel;
 
 import model.HelperTeam.HelperTeam;
 import model.HelperTeam.HelperTeamModel;

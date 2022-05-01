@@ -6,7 +6,7 @@ package IntegrationSystem;
 
 
 import WorkerProvider.Workers;
-import HealthCareMainSystem.UserRoles.Role;
+import HealthCareMainSystem.UserRoles.RoleBasedAuthPanel;
 import java.util.ArrayList;
 
 public abstract class HealthCareSystemEnterprise {
