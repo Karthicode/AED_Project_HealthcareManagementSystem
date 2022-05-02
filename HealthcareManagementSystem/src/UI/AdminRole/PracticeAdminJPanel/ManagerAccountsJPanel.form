@@ -284,20 +284,12 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-          <Image iconType="2" name="C:\Users\noopu\OneDrive\Desktop\Rishi\AED\Final project Images\COVID-ICU-illustration (1) (1) (1).jpg"/>
-=======
           <Image iconType="3" name="/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"/>
->>>>>>> 4a90957 (Adding UI Changing UI)
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-          <AbsoluteConstraints x="0" y="20" width="1780" height="960"/>
-=======
           <AbsoluteConstraints x="0" y="-40" width="1780" height="960"/>
->>>>>>> 4a90957 (Adding UI Changing UI)
         </Constraint>
       </Constraints>
     </Component>
