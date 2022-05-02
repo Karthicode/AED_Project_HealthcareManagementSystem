@@ -95,9 +95,9 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
         jLabelID = new javax.swing.JLabel();
         jButtonDelete = new javax.swing.JButton();
         jLabelName = new javax.swing.JLabel();
-        bgdimg = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 70, 169));
+        setBackground(new java.awt.Color(255, 255, 255));
         setMaximumSize(new java.awt.Dimension(1920, 1183));
         setMinimumSize(new java.awt.Dimension(1920, 1920));
         setPreferredSize(new java.awt.Dimension(1920, 1183));
@@ -116,7 +116,7 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 50, -1, -1));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, -1, -1));
 
         jTableEmployee.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -146,7 +146,7 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
                 jButtonCreateActionPerformed(evt);
             }
         });
-        add(jButtonCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 640, 110, 40));
+        add(jButtonCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 550, 110, 40));
         add(jTextName, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 250, 290, 30));
 
         jButtonUpdate.setBackground(new java.awt.Color(255, 255, 255));
@@ -157,10 +157,9 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
                 jButtonUpdateActionPerformed(evt);
             }
         });
-        add(jButtonUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 640, 100, 40));
+        add(jButtonUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 550, 100, 40));
 
         Password.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        Password.setForeground(new java.awt.Color(255, 255, 255));
         Password.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         Password.setText("Password :");
         add(Password, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 300, 104, -1));
@@ -180,7 +179,6 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
         add(jTextID, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 210, 290, 30));
 
         jLabelRole.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabelRole.setForeground(new java.awt.Color(255, 255, 255));
         jLabelRole.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelRole.setText("Designation");
         add(jLabelRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 350, 104, -1));
@@ -190,7 +188,6 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
         add(DesignationToggle, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 350, -1, -1));
 
         jLabelID.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabelID.setForeground(new java.awt.Color(255, 255, 255));
         jLabelID.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelID.setText("ID :");
         add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 210, 120, -1));
@@ -203,14 +200,15 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
                 jButtonDeleteActionPerformed(evt);
             }
         });
-        add(jButtonDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 640, 100, 40));
+        add(jButtonDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 550, 100, 40));
 
         jLabelName.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelName.setText("Name :");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 250, 140, -1));
-        add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1920, 1200));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\images (2).png")); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, -310, 1610, 1040));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -417,11 +415,11 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox<String> DesignationToggle;
     private javax.swing.JLabel Password;
-    private javax.swing.JLabel bgdimg;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButtonCreate;
     private javax.swing.JButton jButtonDelete;
     private javax.swing.JButton jButtonUpdate;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelID;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelRole;
