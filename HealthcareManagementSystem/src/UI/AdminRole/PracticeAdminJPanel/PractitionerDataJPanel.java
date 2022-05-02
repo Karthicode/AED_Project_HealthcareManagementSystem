@@ -195,7 +195,7 @@ public class PractitionerDataJPanel extends javax.swing.JPanel {
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 260, -1, -1));
         add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\_115891627739whel2jtx7___1.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/_115891627739whel2jtx7___1.png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1380, 990));
     }// </editor-fold>//GEN-END:initComponents
 

@@ -94,7 +94,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="410" y="380" width="401" height="-1"/>
+                  <AbsoluteConstraints x="70" y="190" width="401" height="150"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -113,19 +113,19 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="400" y="270" width="401" height="-1"/>
+                  <AbsoluteConstraints x="560" y="190" width="-1" height="150"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel1">
+            <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\noopu\OneDrive\Desktop\Rishi\AED\Final project Images\COVID-19-Palliative-1-1200x800.jpg"/>
+                  <Image iconType="2" name="C:\Users\noopu\OneDrive\Desktop\Rishi\AED\Final project Images\appointment (1) (1).png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="-20" width="1400" height="810"/>
+                  <AbsoluteConstraints x="0" y="0" width="1440" height="820"/>
                 </Constraint>
               </Constraints>
             </Component>

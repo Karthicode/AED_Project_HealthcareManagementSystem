@@ -46,6 +46,7 @@ public class ConsultantAdminPanel extends javax.swing.JPanel {
         jPanel2 = new javax.swing.JPanel();
         jButtonTestDatabase = new javax.swing.JButton();
         jButtonPlaceOrder = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(1720, 1080));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -82,6 +83,9 @@ public class ConsultantAdminPanel extends javax.swing.JPanel {
         });
         jPanel2.add(jButtonPlaceOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 477, 430, 70));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -110, 1100, 1090));
+
         jSplitPane.setRightComponent(jPanel2);
 
         add(jSplitPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1833, 1102));
@@ -106,6 +110,7 @@ public class ConsultantAdminPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonPlaceOrder;
     private javax.swing.JButton jButtonTestDatabase;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;

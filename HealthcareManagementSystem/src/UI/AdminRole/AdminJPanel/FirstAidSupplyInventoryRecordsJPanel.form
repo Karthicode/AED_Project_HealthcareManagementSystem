@@ -226,7 +226,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\noopu\OneDrive\Desktop\Rishi\AED\Final project Images\Medi (1).jpg"/>
+          <Image iconType="3" name="/BackGroundImages/COVID-19-Palliative-1-1200x800 (1).jpg"/>
         </Property>
       </Properties>
       <Constraints>

@@ -230,6 +230,14 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
+<<<<<<< HEAD
+=======
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/BackGroundImages/istockphoto-1242457489-612x612 (1).jpg"/>
+        </Property>
+      </Properties>
+>>>>>>> 4a90957 (Adding UI Changing UI)
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="0" width="1260" height="910"/>

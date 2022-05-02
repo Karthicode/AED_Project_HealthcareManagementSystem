@@ -207,7 +207,7 @@ public class ServiceTeamAccountsJPanel extends javax.swing.JPanel {
         jLabelName.setText("Name :");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 250, 140, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\images (2).png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/images (2).png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, -310, 1610, 1040));
     }// </editor-fold>//GEN-END:initComponents
 

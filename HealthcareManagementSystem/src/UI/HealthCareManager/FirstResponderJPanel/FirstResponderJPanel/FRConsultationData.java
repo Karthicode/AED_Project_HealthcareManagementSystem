@@ -66,6 +66,7 @@ public class FRConsultationData extends javax.swing.JPanel {
         jTextFieldTestingPrice = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTableTestTable = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -156,6 +157,9 @@ public class FRConsultationData extends javax.swing.JPanel {
         jScrollPane1.setViewportView(jTableTestTable);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 430, 110));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/Medi (1) (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 3, 1490, 940));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonExitActionPerformed
@@ -195,6 +199,7 @@ public class FRConsultationData extends javax.swing.JPanel {
     private javax.swing.JButton jButtonExit;
     private javax.swing.JButton jButtonTestCreate;
     private javax.swing.JButton jButtonUpdateTest;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelHeaders;
     private javax.swing.JLabel jLabelTestPrice;
     private javax.swing.JLabel jLabelTestname;

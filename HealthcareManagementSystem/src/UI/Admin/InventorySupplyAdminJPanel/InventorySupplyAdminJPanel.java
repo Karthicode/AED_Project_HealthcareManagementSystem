@@ -53,7 +53,7 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
         jPanel2 = new javax.swing.JPanel();
         MedSuppliesButton = new javax.swing.JButton();
         OrderManagementButton = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(1720, 1080));
         setLayout(new java.awt.BorderLayout());
@@ -87,7 +87,7 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
                 MedSuppliesButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(MedSuppliesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 380, 401, -1));
+        jPanel2.add(MedSuppliesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 401, 150));
 
         OrderManagementButton.setBackground(new java.awt.Color(0, 70, 169));
         OrderManagementButton.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -97,10 +97,10 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
                 OrderManagementButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(OrderManagementButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 401, -1));
+        jPanel2.add(OrderManagementButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 190, -1, 150));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\COVID-19-Palliative-1-1200x800.jpg")); // NOI18N
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 1400, 810));
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\appointment (1) (1).png")); // NOI18N
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1440, 820));
 
         jSplitPane.setRightComponent(jPanel2);
 
@@ -126,7 +126,7 @@ public class InventorySupplyAdminJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton MedSuppliesButton;
     private javax.swing.JButton OrderManagementButton;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;

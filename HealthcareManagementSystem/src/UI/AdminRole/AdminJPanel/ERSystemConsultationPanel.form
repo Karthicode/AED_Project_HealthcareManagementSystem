@@ -265,7 +265,7 @@
     <Component class="javax.swing.JLabel" name="bgdimg">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\noopu\OneDrive\Desktop\Rishi\AED\Final project Images\COVID-ICU-illustration (1) (1) (1).jpg"/>
+          <Image iconType="3" name="/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>

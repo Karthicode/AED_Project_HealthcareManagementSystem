@@ -173,7 +173,7 @@ public class SupportTeamManagerPanel extends javax.swing.JPanel {
         jLabelName.setText("Team Name:");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\istockphoto-1242457489-612x612 (1).jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/istockphoto-1242457489-612x612 (1).jpg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1260, 910));
     }// </editor-fold>//GEN-END:initComponents
 

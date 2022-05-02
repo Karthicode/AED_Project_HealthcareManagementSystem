@@ -158,7 +158,7 @@ public class FindPractitionerJPanel extends javax.swing.JPanel {
         jLabelName.setText("Name:");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 210, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\Medi (1) (1).jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/Medi (1) (1).jpg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1120, 950));
     }// </editor-fold>//GEN-END:initComponents
 

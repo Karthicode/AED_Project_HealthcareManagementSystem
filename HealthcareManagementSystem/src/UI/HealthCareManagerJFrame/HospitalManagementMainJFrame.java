@@ -66,6 +66,7 @@ public class HospitalManagementMainJFrame extends javax.swing.JFrame {
         loginJLabel = new javax.swing.JLabel();
         JButtonExit = new javax.swing.JButton();
         jPanelWorkArea = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -114,6 +115,10 @@ public class HospitalManagementMainJFrame extends javax.swing.JFrame {
 
         jPanelWorkArea.setPreferredSize(new java.awt.Dimension(1181, 1080));
         jPanelWorkArea.setLayout(new java.awt.CardLayout());
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/R1601C_VILLINSKI.jpg"))); // NOI18N
+        jPanelWorkArea.add(jLabel1, "card2");
+
         jSplitPane1.setRightComponent(jPanelWorkArea);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -268,6 +273,7 @@ public class HospitalManagementMainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton JButtonExit;
     private javax.swing.JButton LoginJButton;
     private javax.swing.JPasswordField PasswordFiled;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelPassword;
     private javax.swing.JLabel jLabelUserName;
     public javax.swing.JPanel jPanelLogin;
