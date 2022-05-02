@@ -10,19 +10,19 @@ import HealthCareManager.Practitioner.PractitionerDirectory;
 import HealthCareManager.Pharmacist.MedicalAdvisorDirectory;
 import HealthCareManager.Emergency.EmergencyProviderDirectory;
 import HealthCareManager.Specialist.SpecialistModelDirectory;
-import HospitalManagement.ServiceTeam.ServiceTeamModelDirectory;
+import HealthCareManager.ServicesProvider.ServiceProviderDirectory;
 
 import HealthCareManager.ResponseManager.FirstResponderDirectory;
 import HealthCareSystem.Directorate.DirectorateDirectory;
 import HealthCareManager.ERWard.ERPatientModel;
 import HealthCareManager.Consultation.ConsultationTestResults;
 import HealthCareManager.Inventory.Inventory;
-import HealthCareManager.SupplyStore.supplyEquipmentDispatchModel;
+import HealthCareManager.SupplyStore.EquipmentSupplyStore;
 import java.util.HashMap;
 
 /**
  *
- * @author karthik
+ * @author karthik 
  */
 public class PartnerInfirmiries {
     
@@ -31,25 +31,23 @@ public class PartnerInfirmiries {
    private String infirmary_postcode;
    private FirstResponderDirectory frontDeskOperatorDirectory;
    private DirectorateDirectory accountantDirectory;
-   private  PractitionerDirectory doctorDirectory;
+   private PractitionerDirectory doctorDirectory;
    private MedicalAdvisorDirectory nurseDirectory;
-   private EmergencyProviderDirectory radiologistDirectory;
-   private SpecialistModelDirectory pathologistDirectory;
-   private ServiceTeamModelDirectory technicianDirectory;
+   private EmergencyProviderDirectory emergencyProviderDirectory;
+   private SpecialistModelDirectory specialistModelDirectory;
+   private ServiceProviderDirectory technicianDirectory;
    private EnterpriseUserDirectory UserAccountDirectory;
    private ERPatientModel patientDirectory;
-//    HashMap<String, String> labTests = new HashMap<>();
-   private  ConsultationTestResults labTestDirectory;
-    
-    private  Inventory medSupEquipAdmin;
-    private supplyEquipmentDispatchModel medSupEquipInternalDirectory;
-    //    UserAccount userAccount;
+
+   private  ConsultationTestResults labTestDirectory;  
+   private  Inventory inventory;
+   private MedSupEquipInternalDirectory medSupEquipInternalDirectory;
 
     
-    public PartnerInfirmiries(String hospitalId, String hospitalName, String hospitalpincode){
-        this.infirmaryId = hospitalId;
-        this.infirmary_Name = hospitalName;
-        this.infirmary_postcode = hospitalpincode;
+    public PartnerInfirmiries(String infirmiryid, String infirmiry_name, String hospital_postcode){
+        this.infirmaryId = infirmiryid;
+        this.infirmary_Name = infirmiry_name;
+        this.infirmary_postcode = hospital_postcode;
     }
     
     public String getInfirmary_Name() {
@@ -100,27 +98,27 @@ public class PartnerInfirmiries {
         this.nurseDirectory = nurseDirectory;
     }
 
-    public EmergencyProviderDirectory getRadiologistDirectory() {
-        return radiologistDirectory;
+    public EmergencyProviderDirectory getEmergencyProviderDirectory() {
+        return emergencyProviderDirectory;
     }
 
-    public void setRadiologistDirectory(EmergencyProviderDirectory radiologistDirectory) {
-        this.radiologistDirectory = radiologistDirectory;
+    public void setEmergencyProviderDirectory(EmergencyProviderDirectory emergencyProviderDirectory) {
+        this.emergencyProviderDirectory = emergencyProviderDirectory;
     }
 
-    public SpecialistModelDirectory getPathologistDirectory() {
-        return pathologistDirectory;
+    public SpecialistModelDirectory getSpecialistModelDirectory() {
+        return specialistModelDirectory;
     }
 
-    public void setPathologistDirectory(SpecialistModelDirectory pathologistDirectory) {
-        this.pathologistDirectory = pathologistDirectory;
+    public void setSpecialistModelDirectory(SpecialistModelDirectory specialistModelDirectory) {
+        this.specialistModelDirectory = specialistModelDirectory;
     }
 
-    public ServiceTeamModelDirectory getTechnicianDirectory() {
+    public ServiceProviderDirectory getTechnicianDirectory() {
         return technicianDirectory;
     }
 
-    public void setTechnicianDirectory(ServiceTeamModelDirectory technicianDirectory) {
+    public void setTechnicianDirectory(ServiceProviderDirectory technicianDirectory) {
         this.technicianDirectory = technicianDirectory;
     }
 
@@ -132,28 +130,28 @@ public class PartnerInfirmiries {
         this.labTestDirectory = labTestDirectory;
     }
 
-    public ERPatientModel getPatientDirectory() {
+    public ERWardDirectory getPatientDirectory() {
         return patientDirectory;
     }
 
-    public void setPatientDirectory(ERPatientModel patientDirectory) {
+    public void setPatientDirectory(ERWardDirectory patientDirectory) {
         this.patientDirectory = patientDirectory;
     }
 
-    public supplyEquipmentDispatchModel getMedSupEquipInternalDirectory() {
+    public MedSupEquipInternalDirectory getMedSupEquipInternalDirectory() {
         return medSupEquipInternalDirectory;
     }
 
-    public void setMedSupEquipInternalDirectory(supplyEquipmentDispatchModel medSupEquipInternalDirectory) {
+    public void setMedSupEquipInternalDirectory(MedSupEquipInternalDirectory medSupEquipInternalDirectory) {
         this.medSupEquipInternalDirectory = medSupEquipInternalDirectory;
     }
 
-    public Inventory getMedSupEquipAdmin() {
-        return medSupEquipAdmin;
+    public Inventory getInventory() {
+        return inventory;
     }
 
-    public void setMedSupEquipAdmin(Inventory medSupEquipAdmin) {
-        this.medSupEquipAdmin = medSupEquipAdmin;
+    public void setInventory(Inventory inventory) {
+        this.inventory = inventory;
     }
       
      public String getInfirmaryId() {

@@ -6,7 +6,7 @@
 package IntegrationSystem;
 
 import WorkerProvider.Worker;
-import HealthCareMainSystem.UserRoles.Role;
+import HealthCareMainSystem.UserRoles.RoleBasedAuthPanel;
 import HealthCareMainSystem.AdminRoles.SystemAdminRole;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
