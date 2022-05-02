@@ -78,12 +78,12 @@ public class InventoryRequestCart extends javax.swing.JPanel {
         jLabelEquipmentQuantity = new javax.swing.JLabel();
         jTextFieldMedicalEquipmentOrderQuantity = new javax.swing.JTextField();
         jButtonEquipmentClearCart = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabelHeader.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabelHeader.setForeground(new java.awt.Color(255, 255, 255));
         jLabelHeader.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelHeader.setText("Equipment Search");
         add(jLabelHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 706, -1));
@@ -107,7 +107,6 @@ public class InventoryRequestCart extends javax.swing.JPanel {
         });
         add(jButtonTestSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 350, -1, -1));
 
-        jLabelEquipmentname.setForeground(new java.awt.Color(255, 255, 255));
         jLabelEquipmentname.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelEquipmentname.setText("Medical Equipment Name");
         add(jLabelEquipmentname, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 350, 150, 20));
@@ -120,9 +119,8 @@ public class InventoryRequestCart extends javax.swing.JPanel {
         add(jTextFieldMedicalEquipmentName, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 350, 270, -1));
 
         jLabelMainHeader.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabelMainHeader.setForeground(new java.awt.Color(255, 255, 255));
         jLabelMainHeader.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelMainHeader.setText("ER WARD DATABASE");
+        jLabelMainHeader.setText("INVENTORY DATABASE");
         add(jLabelMainHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 40, 706, -1));
 
         jTableEquipmentDetails.setModel(new javax.swing.table.DefaultTableModel(
@@ -197,7 +195,6 @@ public class InventoryRequestCart extends javax.swing.JPanel {
         });
         add(jButtonEquipmentddToCart, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 510, -1, -1));
 
-        jLabelEquipmentQuantity.setForeground(new java.awt.Color(255, 255, 255));
         jLabelEquipmentQuantity.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelEquipmentQuantity.setText("Medical Equipment Quantity");
         add(jLabelEquipmentQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 510, 150, -1));
@@ -216,6 +213,9 @@ public class InventoryRequestCart extends javax.swing.JPanel {
             }
         });
         add(jButtonEquipmentClearCart, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 700, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -100, 1390, 940));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonExitActionPerformed
@@ -338,6 +338,7 @@ public class InventoryRequestCart extends javax.swing.JPanel {
     private javax.swing.JButton jButtonPlaceOrderEquiment;
     private javax.swing.JButton jButtonTableRefresh;
     private javax.swing.JButton jButtonTestSearch;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelEquipmentQuantity;
     private javax.swing.JLabel jLabelEquipmentname;
     private javax.swing.JLabel jLabelHeader;

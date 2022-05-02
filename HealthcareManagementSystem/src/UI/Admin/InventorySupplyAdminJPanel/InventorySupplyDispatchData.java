@@ -185,7 +185,7 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
         jLabelQuantity.setText("Quantity :");
         add(jLabelQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 200, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\istockphoto-1295964655-170667a (1).jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/istockphoto-1295964655-170667a (1).jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 880));
     }// </editor-fold>//GEN-END:initComponents

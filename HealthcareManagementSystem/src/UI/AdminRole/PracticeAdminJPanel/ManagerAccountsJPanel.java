@@ -89,6 +89,8 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
         DeleteButton = new javax.swing.JButton();
         jLabelName = new javax.swing.JLabel();
         bgdimg = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -106,7 +108,7 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1390, 50, -1, -1));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 50, -1, -1));
 
         jTableEmployee.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -199,6 +201,10 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
         jLabelName.setText("Name:");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 220, 140, -1));
         add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1780, 960));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -396,6 +402,8 @@ public class ManagerAccountsJPanel extends javax.swing.JPanel {
     private javax.swing.JButton UpdateButton;
     private javax.swing.JLabel bgdimg;
     private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabelID;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelPassword;

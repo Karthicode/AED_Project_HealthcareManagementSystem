@@ -57,7 +57,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
         AdministrativeAccountsPageButton = new javax.swing.JButton();
         OperationalAccountsPageButton = new javax.swing.JButton();
         MedSuppliesButton = new javax.swing.JButton();
-        bgdimg = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
 
         setPreferredSize(new java.awt.Dimension(1720, 1080));
@@ -65,7 +65,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
 
         jSplitPane.setPreferredSize(new java.awt.Dimension(1720, 1080));
 
-        jPanel2.setBackground(new java.awt.Color(0, 70, 169));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(1720, 1080));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -77,7 +77,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
                 MedTechnicalAccountsPageButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(MedTechnicalAccountsPageButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 730, 220, 30));
+        jPanel2.add(MedTechnicalAccountsPageButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 560, 220, 30));
 
         AdministrativeAccountsPageButton.setBackground(new java.awt.Color(228, 238, 247));
         AdministrativeAccountsPageButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -87,7 +87,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
                 AdministrativeAccountsPageButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(AdministrativeAccountsPageButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 560, 220, 30));
+        jPanel2.add(AdministrativeAccountsPageButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 390, 220, 30));
 
         OperationalAccountsPageButton.setBackground(new java.awt.Color(228, 238, 247));
         OperationalAccountsPageButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -97,7 +97,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
                 OperationalAccountsPageButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(OperationalAccountsPageButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 470, 220, 30));
+        jPanel2.add(OperationalAccountsPageButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 220, 30));
 
         MedSuppliesButton.setBackground(new java.awt.Color(228, 238, 247));
         MedSuppliesButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -107,8 +107,10 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
                 MedSuppliesButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(MedSuppliesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 640, 220, 30));
-        jPanel2.add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1740, 1080));
+        jPanel2.add(MedSuppliesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 470, 220, 30));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/R1601C_VILLINSKI.jpg"))); // NOI18N
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1210, 890));
 
         jSplitPane.setRightComponent(jPanel2);
 
@@ -157,7 +159,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JButton MedSuppliesButton;
     private javax.swing.JButton MedTechnicalAccountsPageButton;
     private javax.swing.JButton OperationalAccountsPageButton;
-    private javax.swing.JLabel bgdimg;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;

@@ -39,6 +39,7 @@ public class DirectorateAdminJPanel extends javax.swing.JPanel {
         PatientsDataButton = new javax.swing.JButton();
         ManageAppointmentsButton = new javax.swing.JButton();
         bgdimg = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(1720, 1080));
         setLayout(new java.awt.BorderLayout());
@@ -77,6 +78,9 @@ public class DirectorateAdminJPanel extends javax.swing.JPanel {
         jPanel2.add(ManageAppointmentsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 540, 401, 70));
         jPanel2.add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/R1601C_VILLINSKI.jpg"))); // NOI18N
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1420, 940));
+
         jSplitPane.setRightComponent(jPanel2);
 
         add(jSplitPane, java.awt.BorderLayout.CENTER);
@@ -96,6 +100,7 @@ public class DirectorateAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JButton ManageAppointmentsButton;
     private javax.swing.JButton PatientsDataButton;
     private javax.swing.JLabel bgdimg;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;

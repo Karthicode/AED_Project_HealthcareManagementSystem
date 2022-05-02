@@ -181,7 +181,7 @@ public class ERSystemConsultationPanel extends javax.swing.JPanel {
         add(jLabelPincode, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, 120, -1));
         add(jTextFieldHospPincode, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 300, 280, -1));
 
-        bgdimg.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\COVID-ICU-illustration (1) (1) (1).jpg")); // NOI18N
+        bgdimg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
         bgdimg.setToolTipText("");
         add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -180, 1920, 1220));
     }// </editor-fold>//GEN-END:initComponents

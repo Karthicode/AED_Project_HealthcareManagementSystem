@@ -232,7 +232,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\noopu\OneDrive\Desktop\Rishi\AED\Final project Images\istockphoto-1242457489-612x612 (1).jpg"/>
+          <Image iconType="3" name="/BackGroundImages/istockphoto-1242457489-612x612 (1).jpg"/>
         </Property>
       </Properties>
       <Constraints>

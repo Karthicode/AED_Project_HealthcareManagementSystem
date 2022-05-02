@@ -83,6 +83,7 @@ public class PractitionerDataJPanel extends javax.swing.JPanel {
         jButtonDelete = new javax.swing.JButton();
         jLabelName = new javax.swing.JLabel();
         bgdimg = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setPreferredSize(new java.awt.Dimension(1920, 1183));
@@ -102,7 +103,7 @@ public class PractitionerDataJPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1550, 110, -1, -1));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, -1, -1));
 
         jTableEmployee.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -193,6 +194,9 @@ public class PractitionerDataJPanel extends javax.swing.JPanel {
         jLabelName.setText("Name :");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 260, -1, -1));
         add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/_115891627739whel2jtx7___1.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1380, 990));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -386,6 +390,7 @@ public class PractitionerDataJPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButtonCreate;
     private javax.swing.JButton jButtonDelete;
     private javax.swing.JButton jButtonUpdate;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelDesignation;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelUniqueID;

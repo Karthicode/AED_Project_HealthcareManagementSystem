@@ -84,6 +84,7 @@ public class FindPractitionerJPanel extends javax.swing.JPanel {
         DesignationToggle = new javax.swing.JComboBox<>();
         jLabelID = new javax.swing.JLabel();
         jLabelName = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -121,7 +122,7 @@ public class FindPractitionerJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(jTableEmployee);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 520, 787, 217));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 410, 787, 217));
 
         jButtonSearch.setFont(new java.awt.Font("Times New Roman", 0, 13)); // NOI18N
         jButtonSearch.setText("SEARCH");
@@ -130,19 +131,18 @@ public class FindPractitionerJPanel extends javax.swing.JPanel {
                 jButtonSearchActionPerformed(evt);
             }
         });
-        add(jButtonSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 390, -1, -1));
-        add(jTextName, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 240, 351, -1));
+        add(jButtonSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 350, -1, -1));
+        add(jTextName, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 200, 351, -1));
 
         jTextD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextDActionPerformed(evt);
             }
         });
-        add(jTextD, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, 351, -1));
+        add(jTextD, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 150, 351, -1));
 
-        Designation.setForeground(new java.awt.Color(255, 255, 255));
         Designation.setText("Designation:");
-        add(Designation, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 310, 104, -1));
+        add(Designation, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 270, 104, -1));
 
         DesignationToggle.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Doctor", "Nurse" }));
         DesignationToggle.addActionListener(new java.awt.event.ActionListener() {
@@ -150,15 +150,16 @@ public class FindPractitionerJPanel extends javax.swing.JPanel {
                 DesignationToggleActionPerformed(evt);
             }
         });
-        add(DesignationToggle, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 300, -1, -1));
+        add(DesignationToggle, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, -1, -1));
 
-        jLabelID.setForeground(new java.awt.Color(255, 255, 255));
         jLabelID.setText("ID:");
-        add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, 104, -1));
+        add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 150, 104, -1));
 
-        jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setText("Name:");
-        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, -1, -1));
+        add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 210, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/Medi (1) (1).jpg"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1120, 950));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -300,6 +301,7 @@ public class FindPractitionerJPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButtonSearch;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabelID;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JScrollPane jScrollPane1;

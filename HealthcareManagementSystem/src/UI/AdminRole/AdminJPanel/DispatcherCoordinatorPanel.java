@@ -177,7 +177,7 @@ public class DispatcherCoordinatorPanel extends javax.swing.JPanel {
         jLabelEmpName.setText("Name :");
         add(jLabelEmpName, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 230, 70, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\Medi (1) (1).jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/Medi (1) (1).jpg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -200, 1920, 1190));
     }// </editor-fold>//GEN-END:initComponents
 

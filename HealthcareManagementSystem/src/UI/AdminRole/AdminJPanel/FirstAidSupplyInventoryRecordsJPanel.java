@@ -174,7 +174,7 @@ public class FirstAidSupplyInventoryRecordsJPanel extends javax.swing.JPanel {
         jLabelName.setText("Warehouse Name :");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 250, 180, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\Medi (1).jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-19-Palliative-1-1200x800 (1).jpg"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -100, 1630, 1010));
     }// </editor-fold>//GEN-END:initComponents
 

@@ -65,6 +65,7 @@ public class InventorySupplyDataPanel extends javax.swing.JPanel {
         jTextFieldEquipmentQuantity = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTableTestDB = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -102,7 +103,6 @@ public class InventorySupplyDataPanel extends javax.swing.JPanel {
         jButtonDeleteOrder.setText("DELETE");
         add(jButtonDeleteOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 240, -1, -1));
 
-        jLabelMedicalQuipmentName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelMedicalQuipmentName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelMedicalQuipmentName.setText("Equipment  Name");
         add(jLabelMedicalQuipmentName, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 180, 130, -1));
@@ -114,13 +114,11 @@ public class InventorySupplyDataPanel extends javax.swing.JPanel {
         });
         add(jTextFieldEquipName, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 180, 270, -1));
 
-        jLabelPatientName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelPatientName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelPatientName.setText(" Equipment Qauntity");
         add(jLabelPatientName, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 180, 130, -1));
 
         jLabelHeader.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
-        jLabelHeader.setForeground(new java.awt.Color(255, 255, 255));
         jLabelHeader.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelHeader.setText("Medical Inventory Database");
         add(jLabelHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 50, 870, -1));
@@ -154,6 +152,9 @@ public class InventorySupplyDataPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(jTableTestDB);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 380, 430, 110));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1230, 840));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonExitActionPerformed
@@ -200,6 +201,7 @@ public class InventorySupplyDataPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButtonExit;
     private javax.swing.JButton jButtonUpdateOrder;
     private javax.swing.JButton jButtonViewOrder;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelHeader;
     private javax.swing.JLabel jLabelMedicalQuipmentName;
     private javax.swing.JLabel jLabelPatientName;
