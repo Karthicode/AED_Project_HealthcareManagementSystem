@@ -96,7 +96,7 @@ public class SupplyStoreAdminJPanel extends javax.swing.JPanel {
         jLabelID = new javax.swing.JLabel();
         jButtonDelete = new javax.swing.JButton();
         jLabelName = new javax.swing.JLabel();
-        bgdimg = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -157,8 +157,8 @@ public class SupplyStoreAdminJPanel extends javax.swing.JPanel {
         });
         add(jButtonUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 570, 100, 40));
 
+        jLabelPassword.setBackground(new java.awt.Color(0, 0, 0));
         jLabelPassword.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabelPassword.setForeground(new java.awt.Color(255, 255, 255));
         jLabelPassword.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelPassword.setText("Password:");
         add(jLabelPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 280, 104, -1));
@@ -177,8 +177,8 @@ public class SupplyStoreAdminJPanel extends javax.swing.JPanel {
         });
         add(jTextID, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, 290, -1));
 
+        jLabelID.setBackground(new java.awt.Color(0, 0, 0));
         jLabelID.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabelID.setForeground(new java.awt.Color(255, 255, 255));
         jLabelID.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelID.setText("ID:");
         add(jLabelID, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, 120, -1));
@@ -193,12 +193,15 @@ public class SupplyStoreAdminJPanel extends javax.swing.JPanel {
         });
         add(jButtonDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 570, 100, 40));
 
+        jLabelName.setBackground(new java.awt.Color(0, 0, 0));
         jLabelName.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelName.setText("Name:");
         add(jLabelName, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 230, 140, -1));
-        add(bgdimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1190, 1090));
+
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/Medi (1) (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 860));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -343,11 +346,11 @@ public class SupplyStoreAdminJPanel extends javax.swing.JPanel {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel bgdimg;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButtonCreate;
     private javax.swing.JButton jButtonDelete;
     private javax.swing.JButton jButtonUpdate;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelID;
     private javax.swing.JLabel jLabelName;
     private javax.swing.JLabel jLabelPassword;

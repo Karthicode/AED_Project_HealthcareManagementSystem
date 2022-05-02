@@ -72,12 +72,13 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTableHospitalNewOrders = new javax.swing.JTable();
         jLabelTitleNewOrder = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabelTitleAllOrders.setBackground(new java.awt.Color(0, 0, 0));
         jLabelTitleAllOrders.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabelTitleAllOrders.setForeground(new java.awt.Color(255, 255, 255));
         jLabelTitleAllOrders.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelTitleAllOrders.setText("All Medical Orders");
         add(jLabelTitleAllOrders, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 706, -1));
@@ -101,8 +102,8 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
         });
         add(jButtonAccept, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 560, -1, -1));
 
+        jLabelTitleHeader.setBackground(new java.awt.Color(0, 0, 0));
         jLabelTitleHeader.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabelTitleHeader.setForeground(new java.awt.Color(255, 255, 255));
         jLabelTitleHeader.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelTitleHeader.setText("Delivery Agency Order Database");
         add(jLabelTitleHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 940, -1));
@@ -156,10 +157,13 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 430, 680, 110));
 
         jLabelTitleNewOrder.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabelTitleNewOrder.setForeground(new java.awt.Color(255, 255, 255));
         jLabelTitleNewOrder.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelTitleNewOrder.setText("All New Orders");
         add(jLabelTitleNewOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 380, 706, -1));
+
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 840));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonExitActionPerformed
@@ -221,6 +225,7 @@ public class DispatcherServiceDatabase extends javax.swing.JPanel {
     private javax.swing.JButton jButtonAccept;
     private javax.swing.JButton jButtonExit;
     private javax.swing.JButton jButtonMarlDelivered;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelTitleAllOrders;
     private javax.swing.JLabel jLabelTitleHeader;
     private javax.swing.JLabel jLabelTitleNewOrder;

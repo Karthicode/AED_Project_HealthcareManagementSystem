@@ -109,7 +109,7 @@ public class PartnerInfirmariesAdminJPanel extends javax.swing.JPanel {
         });
         jPanel2.add(MedSuppliesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 470, 220, 30));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\Final project Images\\R1601C_VILLINSKI.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/R1601C_VILLINSKI.jpg"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1210, 890));
 
         jSplitPane.setRightComponent(jPanel2);

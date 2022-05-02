@@ -81,6 +81,7 @@ public class HelperGroupSearchConsultationReports extends javax.swing.JPanel {
         jButtonSubmit = new javax.swing.JButton();
         jLabelCart = new javax.swing.JLabel();
         jLabelEmpName8 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -264,6 +265,9 @@ public class HelperGroupSearchConsultationReports extends javax.swing.JPanel {
         jLabelEmpName8.setFont(new java.awt.Font("Dubai Medium", 1, 24)); // NOI18N
         jLabelEmpName8.setText("TEST SEARCH RESULTS");
         add(jLabelEmpName8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 440, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -150, 1630, 1170));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonExitActionPerformed
@@ -375,6 +379,7 @@ public class HelperGroupSearchConsultationReports extends javax.swing.JPanel {
     private javax.swing.JButton jButtonRefreshTable;
     private javax.swing.JButton jButtonSubmit;
     private javax.swing.JComboBox<String> jComboBoxListOfHospital;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelCart;
     private javax.swing.JLabel jLabelEmpName8;
     private javax.swing.JLabel jLabelEmployeeID;

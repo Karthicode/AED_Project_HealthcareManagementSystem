@@ -77,7 +77,7 @@ public class HelperTeamJPanel extends javax.swing.JPanel {
         jLabelCustomerPincode = new javax.swing.JLabel();
         jTextFieldCustomerPincode = new javax.swing.JTextField();
         jLabelCustomerDate = new javax.swing.JLabel();
-        jDateChooserCustomerDate = new com.toedter.calendar.JDateChooser();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 70, 169));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -237,7 +237,10 @@ public class HelperTeamJPanel extends javax.swing.JPanel {
         jLabelCustomerDate.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelCustomerDate.setText("Date ");
         add(jLabelCustomerDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 220, 150, -1));
-        add(jDateChooserCustomerDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 260, 170, 20));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackGroundImages/The-Best-Appointment-Confirmation-Emails-FI-2340x1000.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -70, 1790, 1140));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextFieldCustomerNoteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCustomerNoteActionPerformed
@@ -435,7 +438,7 @@ public class HelperTeamJPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButtonCustomerCreate;
     private javax.swing.JButton jButtonCustomerUpdate;
     private javax.swing.JButton jButtonDeleteCustomer;
-    private com.toedter.calendar.JDateChooser jDateChooserCustomerDate;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelCustomerDate;
     private javax.swing.JLabel jLabelCustomerEmail;
     private javax.swing.JLabel jLabelCustomerName;

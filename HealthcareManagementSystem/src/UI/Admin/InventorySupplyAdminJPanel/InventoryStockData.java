@@ -182,7 +182,7 @@ public class InventoryStockData extends javax.swing.JPanel {
         });
         add(jTextFieldQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 270, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\noopu\\OneDrive\\Desktop\\Rishi\\AED\\COVID-ICU-illustration (1) (1) (1).jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/HealthcareManagementBGImages/COVID-ICU-illustration (1) (1) (1).jpg"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1230, 840));
     }// </editor-fold>//GEN-END:initComponents
 
