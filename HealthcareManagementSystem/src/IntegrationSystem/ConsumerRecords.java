@@ -6,10 +6,10 @@
 package IntegrationSystem;
 
 import model.HelperTeam.HelperTeam;
-import Model.DispatcherServiceProvider.DispatcherService;
+import DispatcherServiceProvider.DispatcherService;
 import WorkerProvider.Worker;
 import HealthCareManager.PartnerInfirmaries.PartnerInfirmiries;
-import HealthCareMainSystem.UserRoles.Role;
+import HealthCareMainSystem.UserRoles.RoleBasedAuthPanel;
 import InventorySupply.InventorySupply;
 
 /**
@@ -25,9 +25,9 @@ public class ConsumerRecords {
     private HelperTeam helperTeamDir;
     private InventorySupply inventory_Supply;
     private DispatcherService dispatcher_Service;
-    private Role role;
+    private RoleBasedAuthPanel role;
 
-    public ConsumerRecords(String username, String password, Role role) {
+    public ConsumerRecords(String username, String password, RoleBasedAuthPanel role) {
         this.email_Id = username;
         this.password = password;
         this.role = role;
@@ -49,10 +49,10 @@ public class ConsumerRecords {
         this.password = password;
     }
 
-    public void setRole(Role role) {
+    public void setRole(RoleBasedAuthPanel role) {
         this.role = role;
     }
-    public Role getRole() {
+    public RoleBasedAuthPanel getRole() {
         return role;
     }
 

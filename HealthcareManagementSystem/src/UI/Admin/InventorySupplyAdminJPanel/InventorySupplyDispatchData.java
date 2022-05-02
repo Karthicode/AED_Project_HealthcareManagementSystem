@@ -6,15 +6,15 @@
 package UI.Admin.InventorySupplyAdminJPanel;
 
 
-import Model.DispatcherServiceProvider.DispatcherService;
-import Model.DispatcherServiceProvider.DispatcherServiceDirectory;
+import DispatcherServiceProvider.DispatcherService;
+import DispatcherServiceProvider.DispatcherServiceDirectory;
 import IntegrationSystem.HealthcareSystemOrganizationIntegration;
 import IntegrationSystem.ConsumerRecords;
 import IntegrationSystem.EnterpriseUserDirectory;
 import InventorySupply.InventorySupply;
 import InventorySupply.InventorySupplyModelDirectory;
 import InventorySupply.Dipatches.DispatchRequest;
-import InventorySupply.Dipatches.OrderDirectory;
+import InventorySupply.Dipatches.DispatchDirectory;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 
@@ -251,8 +251,8 @@ public class InventorySupplyDispatchData extends javax.swing.JPanel {
 
     private void insertRecordsInJTable() {
         
-        OrderDirectory orderDirectory = inventorySupply.getOrderDirectory();
-        ArrayList<DispatchRequest> orderList = orderDirectory.getOrderList();
+        DispatchDirectory orderDirectory = inventorySupply.getOrderDirectory();
+        ArrayList<DispatchRequest> orderList = orderDirectory.getDispatch_List();
         DefaultTableModel model = (DefaultTableModel) jTableNewOrders.getModel();
         model.setRowCount(0);
 

@@ -6,11 +6,11 @@
 package IntegrationSystem;
 
 import model.HelperTeam.HelperTeamModel;
-import Model.DispatcherServiceProvider.DispatcherServiceDirectory;
+import DispatcherServiceProvider.DispatcherServiceDirectory;
 import HealthCareManager.PartnerInfirmaries.PartnerInfirmiriesDirectory;
 import HealthCareManager.Tickets.TicketModelDirectory;
 
-import HealthCareMainSystem.UserRoles.Role;
+import HealthCareMainSystem.UserRoles.RoleBasedAuthPanel;
 import HealthCareMainSystem.AdminRoles.SystemAdminRole;
 import InventorySupply.InventorySupplyModelDirectory;
 

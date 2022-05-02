@@ -5,7 +5,7 @@
  */
 package HealthCareManager.Emergency;
 
-import IntegrationSystem.CustomerAccount;
+import IntegrationSystem.ConsumerRecords;
 
 /**
  *

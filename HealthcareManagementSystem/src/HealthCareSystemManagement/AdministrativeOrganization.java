@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public abstract class AdministrativeOrganization {
 
     private String name;
-    private JobQueue jobQueue;
     private int currentOrgId;
     private static int queueCounterTracker=0;
     
@@ -36,7 +35,6 @@ public abstract class AdministrativeOrganization {
 
     public AdministrativeOrganization(String getValue) {
         this.name = getValue;
-        jobQueue = new JobQueue();
         currentOrgId = queueCounterTracker;
         ++queueCounterTracker;
     }
@@ -45,25 +43,18 @@ public abstract class AdministrativeOrganization {
         return currentOrgId;
     }
 
-//    public EmployeeDirectory getEmployeeDirectory() {
-//        return employeeDirectory;
-//    }
-    
+
     public String getName() {
         return name;
     }
 
-    public JobQueue getJobQueue() {
-        return jobQueue;
-    }
+   
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setWorkQueue(JobQueue workQueue) {
-        this.jobQueue = workQueue;
-    }
+   
 
     @Override
     public String toString() {
